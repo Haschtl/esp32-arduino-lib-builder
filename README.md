@@ -1,10 +1,10 @@
 # ESP32 Arduino Lib Builder [![Build Status](https://travis-ci.org/espressif/esp32-arduino-lib-builder.svg?branch=master)](https://travis-ci.org/espressif/esp32-arduino-lib-builder)
 
 This repository contains the scripts that produce the libraries included with esp32-arduino.
+It can be used to create a custom version of arduino-esp32 framework that can be used in platformio
 
 Tested on WSL-Debian (64 bit)
 
-Note: Both the
 
 ### Build on WSL Windows
 ```bash
