@@ -22,6 +22,8 @@ python esp-idf/tools/idf.py menuconfig   //make your modifications and save it a
 // Copy the content from esp32-arduino-lib-builder/components/arduino/ to arduino-esp32/
 
 ./tools/copy-to-arduino.sh           // Important: This file is modified that it replaces the files in the previously cloned arduino-esp32 repository!
+
+// Now you can commit and upload the changes in the arduino-esp32 library and then use your custom arduino-esp32 framework in platformio
 ```
 
 ### Use with Platformio (platformio.ini)
